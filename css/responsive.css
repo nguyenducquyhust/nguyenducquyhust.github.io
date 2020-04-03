@@ -1,0 +1,114 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .about_social {
+        margin-bottom: 20px;
+    }
+    .width_80{
+        width: 59%;
+        height: 340px;
+    }
+
+    .width_20{
+        width: 40%;
+        height: 340px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .main_menu{
+        background: #464240;
+    }
+    .welcome_slider_content h1{
+        font-size: 25px;
+    }
+
+    .about_social {
+        margin-bottom: 20px;
+    }
+
+     ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .width_80{
+        width: 49%;
+        height: auto;
+    }
+
+    .width_20{
+        width: 49%;
+        height: auto;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+}
+
+@media only screen and (max-width: 480px){
+    .welcome_slider_content h1 {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    .about_content h2 {
+        font-size: 26px;
+    }
+    h4.timeline-title {
+        font-size: 14px;
+    }
+    button.filter {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .port_item {
+        margin: 0px auto;
+    }
+    .width_80{
+        width: 90%;
+        height: auto;
+    }
+
+    .width_20{
+        width: 90%;
+        height: auto;
+    }
+    .contact_item {
+        padding: 0px;
+    }
+}
